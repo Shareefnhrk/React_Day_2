@@ -9,7 +9,7 @@ function Orderform(props) {// useState is one of the hook in react
     );
     function updateValue(event){
         console.log(event.target.value);
-        setOrder({[event.target.name]:event.target.value});
+        setOrder({...order,[event.target.name]:event.target.value});
     }
     function calculation(){
         if(order.tax<0){
