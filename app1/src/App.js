@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import OrderForm from './orderForm';
 
-function App() {
+function App() {//constrctore means function
   return (
     <div className="App">
       <header className="App-header">
@@ -11,6 +11,7 @@ function App() {
       </header>
       <OrderForm name='pavan'></OrderForm>
       <OrderForm name= 'ms'></OrderForm>
+      
     </div>
   );
 }
