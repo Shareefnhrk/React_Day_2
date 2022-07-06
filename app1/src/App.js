@@ -10,7 +10,6 @@ function App() {//constrctore means function
       
       </header>
       <OrderForm name='pavan'></OrderForm>
-      <OrderForm name= 'ms'></OrderForm>
       
     </div>
   );
