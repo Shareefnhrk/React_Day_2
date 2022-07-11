@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import AlbumList from './Albumlist';
+import Registerform from './Registerform';
 
 function App() {
   return (
-  <AlbumList></AlbumList>
+    <Registerform></Registerform>
   );
 }
 
