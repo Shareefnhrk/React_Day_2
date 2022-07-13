@@ -1,0 +1,17 @@
+<html>
+    <body id='mybody'>
+    <script>
+       // const foo = function() function es5
+       const foo = (numbers) => {//arrow function es6
+        const bodytag = document.getElementById('mybody');
+        numbers.forEach((value,index)=> {
+            const newdiv = document.createElement('input');
+            newdiv.value = value;
+            bodytag.appendChild(newdiv);
+            
+        });
+       }
+       foo([1,2,3,4]);
+    </script>
+    </body>
+</html>

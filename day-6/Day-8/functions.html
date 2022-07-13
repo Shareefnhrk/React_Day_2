@@ -1,0 +1,31 @@
+<html>
+<script>
+    function foo(a, b) {
+        //console.log(a,b);
+        console.log(arguments.length);
+        //  console.log(typeof arguments);
+
+        //  console.log(Object.keys(arguments));
+        //  const keys = Object.keys(arguments);
+        //  keys.forEach(key => {
+        //    console.log(arguments[key])
+        //  });
+        var elements = Object.values(arguments);
+        elements.forEach(function (value, index) {
+            console.log("test", value[1], index);
+        });
+    }
+    foo(1, 2, 3);
+       // foo();
+        //foo("shr",3);
+
+</script>
+<body>
+    <div>
+        11
+    </div>
+    <div>21</div>
+    <div>31</div>
+</body>
+
+</html>
