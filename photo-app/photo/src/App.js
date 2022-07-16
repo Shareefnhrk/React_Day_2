@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Registerform from './Registerform';
+import Email from './Email';
+//import AlbumList from './Albumlist';
+//import Registerform from './Registerform';
+//import FormValidation from './FormValidation';
 
 function App() {
   return (
-    <Registerform></Registerform>
+    // <Registerform></Registerform>
+    //<FormValidation></FormValidation>
+    //<AlbumList></AlbumList>
+    <Email></Email>
   );
 }
 

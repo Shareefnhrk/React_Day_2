@@ -15,16 +15,18 @@ function Registerform() {
     }
     return (
         <div>
-            <h3>user form</h3>
-            <label>Email ID:</label>
-            <input value={data.emailId} name="emailId" onChange={onChangeUserData}></input>
-            <label>passWord:</label>
-            <input value={data.password} name="password" tyepe="password" onChange={onChangeUserData}></input>
-            <label>confirm passWord:</label>
-            <input value={data.confirmpassword} type="password" name="confirmpassword" onChange={onChangeUserData}></input>
-            {
-                data.password !== data.confirmpassword ? <div> Password not match</div>
-                    : null}
+            <center>
+                <h3>user form</h3>
+                <label>Email ID:</label>
+                <input value={data.emailId} name="emailId" onChange={onChangeUserData}></input>
+                <label>passWord:</label>
+                <input value={data.password} name="password" tyepe="password" onChange={onChangeUserData}></input>
+                <label>confirm passWord:</label>
+                <input value={data.confirmpassword} type="password" name="confirmpassword" onChange={onChangeUserData}></input>
+                {
+                    data.password !== data.confirmpassword ? <div> Password not match</div>
+                        : null}
+            </center>
         </div>
     )
 
@@ -56,4 +58,4 @@ function Registerform() {
 //         </div>
 //     )
 // }
- export default Registerform;
+export default Registerform;
