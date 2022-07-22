@@ -1,4 +1,5 @@
 import { createContext, useState, useContext } from 'react'
+import ContactUsForm from './Formcomponent';
 const themes = {
   light: {
     foreground: "#000000",
@@ -15,17 +16,20 @@ function App() {
   const [themeName, setThemeName] = useState("light");
   const currentTheme = themes[themeName];
   return (
+    // <div>
+    //   <select
+    //     onChange={(event) => setThemeName(event.target.value)}
+    //     value={themeName}
+    //   >
+    //     <option value="light">Light</option>
+    //     <option value="dark">Dark</option>
+    //   </select>
+    //   <ThemeContext.Provider value={currentTheme}>
+    //     <Toolbar />
+    //   </ThemeContext.Provider>
+    // </div>
     <div>
-      <select
-        onChange={(event) => setThemeName(event.target.value)}
-        value={themeName}
-      >
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-      </select>
-      <ThemeContext.Provider value={currentTheme}>
-        <Toolbar />
-      </ThemeContext.Provider>
+    <ContactUsForm/>
     </div>
   );
 }
