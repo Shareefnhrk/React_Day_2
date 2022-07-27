@@ -452,12 +452,12 @@
     },
     {
       "id": 46,
-      "name": "Bernier and Sons",
+      "name": "Bernier hari",
       "description": "User-friendly directional standardization. Temporibus qui laudantium ipsam sapiente ut eum ab omnis quasi.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 1,
       "contractSignedOn": "2018-01-17T21:58:28.876Z",
-      "budget": 94076,
+      "budget": 94075,
       "isActive": true
     },
     {
@@ -532,13 +532,13 @@
     },
     {
       "id": 54,
-      "name": "Anderson LLC",
+      "name": "Shareef",
       "description": "Diverse incremental algorithm. Expedita laudantium sit quisquam sit nobis eum nam ea natus.",
       "imageUrl": "/assets/placeimg_500_300_arch10.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2015-01-21T07:03:49.836Z",
       "budget": 74221,
-      "isActive": false
+      "isActive": true
     },
     {
       "id": 55,
@@ -662,7 +662,7 @@
     },
     {
       "id": 67,
-      "name": "Bednar - Yundt",
+      "name": "Amith",
       "description": "Reactive secondary protocol. Cumque fugiat reprehenderit commodi et ea voluptas aliquid facere placeat.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 4,
@@ -732,7 +732,7 @@
     },
     {
       "id": 74,
-      "name": "Armstrong, Crona and Ziemann",
+      "name": "ShareefNhrk",
       "description": "Switchable bifurcated task-force. Hic sed at et id et et qui quis dolores.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 2,
@@ -762,7 +762,7 @@
     },
     {
       "id": 77,
-      "name": "Abshire and Sons",
+      "name": "ShareefNhrk",
       "description": "Ergonomic mission-critical knowledge user. Consequatur pariatur eos molestiae qui aut dolorem laudantium nesciunt doloribus.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 6,
@@ -802,7 +802,7 @@
     },
     {
       "id": 81,
-      "name": "Beatty, Boehm and West",
+      "name": "Beattynhrk",
       "description": "Operative high-level emulation. Quos qui dolorum aut voluptatem rerum vel provident necessitatibus dicta.",
       "imageUrl": "/assets/placeimg_500_300_arch4.jpg",
       "contractTypeId": 5,
@@ -942,13 +942,13 @@
     },
     {
       "id": 95,
-      "name": "Armstrong - Hands",
+      "name": "Pariwesh",
       "description": "Persistent 3rd generation capability. Sint omnis asperiores voluptas sapiente delectus blanditiis earum ut voluptatem.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2010-09-24T21:02:41.601Z",
       "budget": 38853,
-      "isActive": false
+      "isActive": true
     },
     {
       "id": 97,
